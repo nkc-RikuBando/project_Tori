@@ -5,16 +5,19 @@ using UnityEngine.UI;
 
 public class UITextChange : MonoBehaviour
 {
-    
 
+    [SerializeField] GameObject rigInfoPanel;
     [SerializeField] Text text_RingName;
     [SerializeField] Text text_RingNum;
     [SerializeField] Text text_RingSum;
+
+    private Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
         
+        animator = rigInfoPanel.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -36,7 +39,9 @@ public class UITextChange : MonoBehaviour
     public void TextChange_Name(string textChange_RingName)
     {
         text_RingName.text = textChange_RingName;
+        
         Debug.Log(textChange_RingName);
+        animator.SetTrigger("isPassing");
         //text_RingName.GetComponent<CanvasGroup>().alpha = 0;
         //NameFade();
     }
