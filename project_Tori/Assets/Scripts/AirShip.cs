@@ -4,23 +4,18 @@ using UnityEngine;
 
 public class AirShip : MonoBehaviour
 {
-    [SerializeField]
-    private float angle;
-    [SerializeField]
-    private float radius;
-    [SerializeField]
-    private GameObject center = null;
-    [SerializeField]
-    private float rotateSpeed; // ˆÚ“®‘¬“x
-    [SerializeField]
-    private float rotation;
+    [SerializeField] private float angle;
+    [SerializeField] private float radius;
+    [SerializeField] private GameObject center = null;
+    [SerializeField] private float rotateSpeed; // ˆÚ“®‘¬“x
+    [SerializeField] private float rotation;
 
     void Start()
     {
         
     }
 
-    void Update()
+    void FixedUpdate()
     {
         RotateMove();
         transform.Rotate(new Vector3(0, -rotation, 0));
