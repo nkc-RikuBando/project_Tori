@@ -1,0 +1,99 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+public class Ring : MonoBehaviour
+{
+    [SerializeField] string ringName;
+
+    int passRingNum = 0;
+
+    float distance;
+
+    bool appearRingFlg = false; //近づいたかのフラグ
+    bool passRingFlg = false;   //くぐったかのフラグ
+
+    private GameObject player;
+    private RingAnimation ringAnimation;
+    private RuleManager ruleManager;
+    private Animator animator;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        player = GameObject.Find("Player");
+        ruleManager = GameObject.Find("RuleManager").GetComponent<RuleManager>();
+        ringAnimation = this.transform.parent.gameObject.GetComponent<RingAnimation>();
+
+        //animator = GetComponent<Animator>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        PlayerDistance();
+    }
+
+    private void OnTriggerEnter(Collider collider)
+    {
+        if (passRingFlg) return; //リングを通っていたらそもそも検知する必要がない
+        var ToPlayerGoThrough = collider.gameObject.GetComponent<PlayerContoller>(); //このスクリプトを持っているオブジェクトが触れたかを検知
+        if (ToPlayerGoThrough != null)
+        {
+            GoThroughToRing();
+        }
+    }
+
+    public void PlayerDistance()
+    {
+        Vector3 playerPos = player.transform.position;   //プレイヤーの座標
+        Vector3 ringPos = gameObject.transform.position; //リングの座標
+
+        distance = Vector3.Distance(playerPos, ringPos); //プレイヤーの座標　-　リングの座標　=　distance
+
+        //近いか遠いかで変わる処理
+        if (!appearRingFlg)
+        {
+            if (!(distance < 20 && distance > -20)) return; //範囲内にいたら
+            appearRingFlg = true; //何回もアニメーションしないようにする
+            ApproachToRing();
+        }
+
+        if (appearRingFlg)
+        {
+            if (!(distance > 20 || distance < -20)) return; //範囲外にいたら
+            appearRingFlg = false; //何回もアニメーションしないようにする
+            DepartToRing();
+        }
+    }
+
+    public void ApproachToRing() //近づいた処理
+    {
+        if (appearRingFlg)
+        {
+            //animator.SetBool("isAppear", true);
+            ringAnimation.AppearAnimstion();
+            Debug.Log("大きくなるアニメーション");
+        }
+    }
+
+    public void DepartToRing() //遠ざかった処理
+    {
+        if (!appearRingFlg)
+        {
+            //animator.SetBool("isAppear", false);
+            ringAnimation.DisappearAnimation();
+            Debug.Log("小さくなるアニメーション");
+        }
+    }
+
+    public void GoThroughToRing() //くぐった処理
+    {
+        passRingFlg = true; //通ったリングを再度検知しないようにする
+        //animator.SetBool("isPassing", true);
+        ringAnimation.PassingAnimation();
+        Debug.Log("消える");
+        ruleManager.PassRing();
+        ruleManager.RingNameSet(ringName);
+    }
+
+}
