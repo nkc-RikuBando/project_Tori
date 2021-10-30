@@ -13,16 +13,19 @@ public class Ring : MonoBehaviour
     bool passRingFlg = false;   //‚­‚®‚Á‚½‚©‚Ìƒtƒ‰ƒO
 
     private GameObject player;
+    //private GameObject ringObject;
+
     private RingAnimation ringAnimation;
     private RuleManager ruleManager;
-    private Animator animator;
+    //private Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
+        //ringObject = gameObject.transform.GetChild(0).gameObject;
         player = GameObject.Find("Player");
         ruleManager = GameObject.Find("RuleManager").GetComponent<RuleManager>();
-        ringAnimation = this.transform.parent.gameObject.GetComponent<RingAnimation>();
+        ringAnimation = GetComponent<RingAnimation>();
 
         //animator = GetComponent<Animator>();
     }
