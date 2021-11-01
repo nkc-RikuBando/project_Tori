@@ -14,11 +14,23 @@ namespace Reality
 
             [Inject] private IInputRecevable _keyboardInputer;
 
+            private Rigidbody rb;
+
+
+            private void Start()
+            {
+                rb = GetComponent<Rigidbody>();
+            }
 
             private void Update()
             {
+                InputVector();
+            }
+
+            private void FixedUpdate()
+            {
+                
                 Position();
-                Rotate();
             }
 
 
@@ -27,39 +39,35 @@ namespace Reality
             {
                 Vector3 posVec3 = Vector3.zero;
 
-                posVec3.y = Input.GetAxis("Vertical");
-
                 if (Input.GetKey(KeyCode.LeftShift))
                 {
-                    posVec3.z = 1;
+                    posVec3 = transform.forward;
                 }
-                else if (Input.GetKeyUp(KeyCode.LeftShift))
+                else
                 {
-                    posVec3.z = 0;
+                    posVec3 = Vector3.zero;
                 }
 
-                _keyboardInputer.CurrentMoveDir(posVec3);
+                posVec3.y = Input.GetAxisRaw("Vertical");
+
+                _keyboardInputer.CurrentMoveDir(posVec3.normalized);
+                _keyboardInputer.OldMoveDir(rb.velocity);
 
             }
 
             // ‰ñ“]—pInput
-            private void Rotate()
+            private void InputVector()
             {
-                Vector3 rotVec3 = Vector3.zero;
+                Vector3 inputVec3 = Vector3.zero;
 
-                rotVec3.y = Input.GetAxisRaw("Horizontal");
+                if (Input.GetKey(KeyCode.LeftShift)) inputVec3.z = 1;
+                else                                 inputVec3.z = 0;
 
+                inputVec3.y = Input.GetAxisRaw("Vertical");
 
-                if (transform.rotation.y >= 0.5f)
-                {
-                    rotVec3.y = -0.5f;
-                }
-                else if (transform.rotation.y <= -0.5f)
-                {
-                    rotVec3.y = 0.5f;
-                }
+                inputVec3.x = Input.GetAxisRaw("Horizontal");
 
-                _keyboardInputer.CurrentRatateDir(rotVec3);
+                _keyboardInputer.CurrentRatateDir(inputVec3);
             }
         }
 

@@ -14,6 +14,8 @@ namespace Connector
             IObservable<Vector3> GetPlayerPosObservable();
 
             IObservable<Vector3> GetPlayerRotObservable();
+
+            IObservable<PlayerMoveType> GetPlayerMoveTypeObservable();
         }
     }
 }

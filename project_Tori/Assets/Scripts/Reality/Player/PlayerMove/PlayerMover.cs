@@ -16,24 +16,23 @@ namespace Reality
 
             [Inject] private IPlayerInfoStateSentable _playerInfoStateSentable;
 
+            private Rigidbody rb;
 
             // Start is called before the first frame update
             void Start()
             {
+
+                rb = GetComponent<Rigidbody>();
+
                 // ˆÚ“®
                 _playerInfoStateSentable.GetPlayerPosObservable()
-                    .Subscribe(x => transform.position += Vector3.Scale(x, transform.forward));
+                    .Subscribe(v => rb.velocity = v);
 
-                
 
                 // ‰ñ“]
                 _playerInfoStateSentable.GetPlayerRotObservable()
-                    .Subscribe(x => transform.Rotate(x));
+                    .Subscribe(r => transform.Rotate(r));
 
-            }
-
-            private void Update()
-            {
             }
         }
 

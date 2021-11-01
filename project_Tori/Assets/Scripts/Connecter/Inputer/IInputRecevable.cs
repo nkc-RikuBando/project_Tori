@@ -11,6 +11,8 @@ namespace Connector
 
             void CurrentMoveDir(Vector3 vec);
 
+            void OldMoveDir(Vector3 vec);
+
             void CurrentRatateDir(Vector3 vec);
 
         }
