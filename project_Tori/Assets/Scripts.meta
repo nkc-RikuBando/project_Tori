@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD:project_Tori/Assets/Scripts.meta
 guid: a98cde329b190544baa549f34129e377
 =======
 guid: 87c5dbd502aade141bdd1a9efff3d882
 >>>>>>> e1d138e67fc492e57f9df445273b9ed5ef959e50:project_Tori/Assets/Prefabs.meta
+=======
+guid: 8fd48c62bec856b489123a9d149489e8
+>>>>>>> feature_PlayerTest
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:project_Tori/Assets/DLC/SineVFX/TranslucentCrystals/_SRP/TranslucentCrystals_HDRP_Patch.unitypackage.meta
 guid: 3829f2d229e9f9b44b6d3f85cb2d6653
+=======
+<<<<<<< HEAD:project_Tori/Assets/MeshBaker/Examples/Examples_HDRP.unitypackage.meta
+guid: 5b83ddf25a47bce4e88daaed33568143
+=======
+guid: 0aeabfd115c8a4b0ea6377d7970134a2
+>>>>>>> feature_PlayerTest:project_Tori/Assets/Plugins/Zenject/OptionalExtras/AutoMocking.zip.meta
+>>>>>>> develop:project_Tori/Assets/MeshBaker/Examples/Examples_HDRP.unitypackage.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
