@@ -10,15 +10,10 @@ public class AirShip : MonoBehaviour
     [SerializeField] private float rotateSpeed; // ˆÚ“®‘¬“x
     [SerializeField] private float rotation;
 
-    void Start()
-    {
-        
-    }
-
     void FixedUpdate()
     {
         RotateMove();
-        transform.Rotate(new Vector3(0, -rotation, 0));
+        transform.Rotate(new Vector3(0, rotation, 0));
     }
 
     static Vector3 RotateAroundY(Vector3 original_position, float angle, float radius)
@@ -35,6 +30,6 @@ public class AirShip : MonoBehaviour
     void RotateMove()
     {
         transform.position = RotateAroundY(center.transform.position, angle, radius);
-        angle -= rotateSpeed;
+        angle += rotateSpeed;
     }
 }

@@ -20,11 +20,19 @@ C:/Users/user/Desktop/Tori/Tori/project_Tori
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 50663
 Successfully changed project path to: C:/Users/user/Desktop/Tori/Tori/project_Tori
 C:/Users/user/Desktop/Tori/Tori/project_Tori
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 51.43 ms, found 2 plugins.
+=======
+63399
+Successfully changed project path to: C:/Users/user/Documents/project_Tori/project_Tori
+C:/Users/user/Documents/project_Tori/project_Tori
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 37.61 ms, found 2 plugins.
+>>>>>>> feature_SkyField
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -70,6 +78,7 @@ Domain Reload Profiling:
 	ReloadAssembly (2201ms)
 		BeginReloadAssembly (134ms)
 =======
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -84,6 +93,22 @@ Domain Reload Profiling:
 	ReloadAssembly (3039ms)
 		BeginReloadAssembly (83ms)
 >>>>>>> feature_PlayerTest
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002031 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.116 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1117ms)
+		BeginReloadAssembly (58ms)
+>>>>>>> feature_SkyField
+>>>>>>> c6a9b3b4a94e449087392244041446c97dd42126
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
@@ -106,6 +131,7 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadMethodAttributes (47ms)
 =======
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 		EndReloadAssembly (726ms)
 			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -121,6 +147,23 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (115ms)
 				ProcessInitializeOnLoadMethodAttributes (44ms)
 >>>>>>> feature_PlayerTest
+=======
+		EndReloadAssembly (439ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (161ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (169ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+>>>>>>> feature_SkyField
+>>>>>>> c6a9b3b4a94e449087392244041446c97dd42126
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -138,10 +181,23 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1766ms)
 		BeginReloadAssembly (221ms)
+=======
+Registered in 0.003166 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.090 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1091ms)
+		BeginReloadAssembly (157ms)
+>>>>>>> feature_SkyField
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (27ms)
 		EndReloadAssembly (1464ms)
 			LoadAssemblies (119ms)
@@ -174,6 +230,7 @@ System memory in use after: 76.9 MB.
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1977.
 Total: 3.985700 ms (FindLiveObjects: 0.193800 ms CreateObjectMapping: 0.072900 ms MarkObjects: 3.630800 ms  DeleteObjects: 0.086700 ms)
 =======
+<<<<<<< HEAD
 Registered in 0.006926 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -220,6 +277,40 @@ System memory in use after: 115.3 MB.
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2946.
 Total: 20.263900 ms (FindLiveObjects: 0.804400 ms CreateObjectMapping: 0.488100 ms MarkObjects: 18.620200 ms  DeleteObjects: 0.347700 ms)
 >>>>>>> feature_PlayerTest
+=======
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (869ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (290ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (340ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1524 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.8 MB.
+System memory in use after: 78.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1964.
+Total: 2.966800 ms (FindLiveObjects: 0.185900 ms CreateObjectMapping: 0.082600 ms MarkObjects: 2.627700 ms  DeleteObjects: 0.069500 ms)
+>>>>>>> feature_SkyField
+>>>>>>> c6a9b3b4a94e449087392244041446c97dd42126
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -250,6 +341,7 @@ System memory in use after: 44.1 MB.
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1977.
 Total: 10.426300 ms (FindLiveObjects: 0.452800 ms CreateObjectMapping: 0.211800 ms MarkObjects: 9.648500 ms  DeleteObjects: 0.087600 ms)
 =======
+<<<<<<< HEAD
   path: Assets/Scripts/Virtuality/Player/PlayerMove/PlayerTransformChange.cs
   artifactKey: Guid(2a932a45f5545ae4db113b5698a207a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/Virtuality/Player/PlayerMove/PlayerTransformChange.cs using Guid(2a932a45f5545ae4db113b5698a207a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45712dfd988e236d47da163b19bd0fd') in 0.327752 seconds 
@@ -266,6 +358,75 @@ System memory in use after: 63.3 MB.
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2946.
 Total: 4.666400 ms (FindLiveObjects: 0.261000 ms CreateObjectMapping: 0.172800 ms MarkObjects: 4.209500 ms  DeleteObjects: 0.022100 ms)
 >>>>>>> feature_PlayerTest
+=======
+  path: Assets/Prefub/CenterPos.prefab
+  artifactKey: Guid(242e1338b1af65e40bfd08fb945b8916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefub/CenterPos.prefab using Guid(242e1338b1af65e40bfd08fb945b8916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520350bc69ed46cbd7c2fc7378b4b136') in 0.140321 seconds 
+  Import took 0.151882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 158.857070 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Rock_3.prefab
+  artifactKey: Guid(4b7d7bc6f08bdf94a8c65ed8a52c73cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Rock_3.prefab using Guid(4b7d7bc6f08bdf94a8c65ed8a52c73cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a55949458724bf30bef78627bdba4e') in 0.029781 seconds 
+  Import took 0.038432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.000475 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Rock_1.prefab
+  artifactKey: Guid(4f3f482d7df05d2439b80b0a07876d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Rock_1.prefab using Guid(4f3f482d7df05d2439b80b0a07876d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3e5474c8cba9ed4eefb7328c46912e') in 0.024794 seconds 
+  Import took 0.038024 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004151 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.134 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1134ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (914ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (364ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1489 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.9 MB.
+System memory in use after: 79.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1973.
+Total: 2.901200 ms (FindLiveObjects: 0.156100 ms CreateObjectMapping: 0.052800 ms MarkObjects: 2.645400 ms  DeleteObjects: 0.045600 ms)
+>>>>>>> feature_SkyField
+>>>>>>> c6a9b3b4a94e449087392244041446c97dd42126
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -281,6 +442,7 @@ AssetImportParameters requested are different than current active one (requested
 <<<<<<< HEAD
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.005701 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -303,9 +465,34 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (88ms)
 			SetupLoadedEditorAssemblies (751ms)
+=======
+Registered in 0.005485 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.431 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1440ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (95ms)
+		EndReloadAssembly (1130ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (374ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (488ms)
+>>>>>>> feature_SkyField
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (1ms)
+<<<<<<< HEAD
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (130ms)
 				ProcessInitializeOnLoadAttributes (579ms)
@@ -314,9 +501,20 @@ Domain Reload Profiling:
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (17ms)
+=======
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (380ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+>>>>>>> feature_SkyField
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+<<<<<<< HEAD
 Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 73.6 MB.
 System memory in use after: 73.7 MB.
@@ -459,6 +657,7 @@ System memory in use after: 73.8 MB.
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1981.
 Total: 5.585400 ms (FindLiveObjects: 0.326900 ms CreateObjectMapping: 0.117400 ms MarkObjects: 5.095200 ms  DeleteObjects: 0.044100 ms)
 =======
+<<<<<<< HEAD
 Registered in 0.005561 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -502,6 +701,15 @@ System memory in use after: 111.9 MB.
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2950.
 Total: 3.382100 ms (FindLiveObjects: 0.233000 ms CreateObjectMapping: 0.096100 ms MarkObjects: 3.005100 ms  DeleteObjects: 0.046400 ms)
 >>>>>>> feature_PlayerTest
+=======
+Unloading 1489 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.0 MB.
+System memory in use after: 79.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1975.
+Total: 3.747600 ms (FindLiveObjects: 0.179400 ms CreateObjectMapping: 0.051700 ms MarkObjects: 3.487100 ms  DeleteObjects: 0.024400 ms)
+>>>>>>> feature_SkyField
+>>>>>>> c6a9b3b4a94e449087392244041446c97dd42126
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -518,19 +726,30 @@ Received Prepare
 Registering precompiled user dll's ...
 <<<<<<< HEAD
 Registered in 0.008762 seconds.
+=======
+Registered in 0.003443 seconds.
+>>>>>>> feature_SkyField
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  3.008 seconds
 Domain Reload Profiling:
 	ReloadAssembly (3009ms)
 		BeginReloadAssembly (294ms)
+=======
+- Completed reload, in  1.050 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1051ms)
+		BeginReloadAssembly (117ms)
+>>>>>>> feature_SkyField
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (34ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (78ms)
 		EndReloadAssembly (2489ms)
 			LoadAssemblies (253ms)
@@ -560,6 +779,7 @@ System memory in use after: 73.8 MB.
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1983.
 Total: 6.174500 ms (FindLiveObjects: 0.281200 ms CreateObjectMapping: 0.097300 ms MarkObjects: 5.758600 ms  DeleteObjects: 0.035000 ms)
 =======
+<<<<<<< HEAD
 Registered in 0.005939 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -589,11 +809,29 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (125ms)
 				ProcessInitializeOnLoadAttributes (261ms)
 				ProcessInitializeOnLoadMethodAttributes (5ms)
+=======
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (868ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (303ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+>>>>>>> c6a9b3b4a94e449087392244041446c97dd42126
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
@@ -603,6 +841,17 @@ System memory in use after: 112.0 MB.
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2952.
 Total: 3.599700 ms (FindLiveObjects: 0.257400 ms CreateObjectMapping: 0.094600 ms MarkObjects: 3.199000 ms  DeleteObjects: 0.047500 ms)
 >>>>>>> feature_PlayerTest
+=======
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1489 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.0 MB.
+System memory in use after: 79.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1977.
+Total: 4.319500 ms (FindLiveObjects: 0.175700 ms CreateObjectMapping: 0.057700 ms MarkObjects: 4.065800 ms  DeleteObjects: 0.018600 ms)
+>>>>>>> feature_SkyField
+>>>>>>> c6a9b3b4a94e449087392244041446c97dd42126
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -614,6 +863,198 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16480.798342 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Cloud_Small_1.prefab
+  artifactKey: Guid(6630d5283ef4fc04c98111dbe97a6647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Cloud_Small_1.prefab using Guid(6630d5283ef4fc04c98111dbe97a6647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67feb5084611c6e114f28139bdce952') in 0.109431 seconds 
+  Import took 0.114352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.539492 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Cloud_Small_2.prefab
+  artifactKey: Guid(32d643987d87169429aff7effb3565a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Cloud_Small_2.prefab using Guid(32d643987d87169429aff7effb3565a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948a4ecde595a13429dc8fe55d82a2b8') in 0.023116 seconds 
+  Import took 0.035345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.524360 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Cloud_Small_3.prefab
+  artifactKey: Guid(278851e8f0c3eb64786b9e12212170aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Cloud_Small_3.prefab using Guid(278851e8f0c3eb64786b9e12212170aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56380ce95c63c92f231542dd8b2c5bb8') in 0.038058 seconds 
+  Import took 0.043389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.664196 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Fence_3.prefab
+  artifactKey: Guid(a56890bd1ef457348ad22363bd7a964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Fence_3.prefab using Guid(a56890bd1ef457348ad22363bd7a964f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e73a3ac2ad66fa90267971bbbc2395') in 0.041292 seconds 
+  Import took 0.046859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 246.874330 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Chain_Wall_Attachment.prefab
+  artifactKey: Guid(3679c27f55f357f4e840673deded1955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Chain_Wall_Attachment.prefab using Guid(3679c27f55f357f4e840673deded1955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f20448f85dc1746716aa692fc559697') in 0.030504 seconds 
+  Import took 0.035844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.781680 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Chains.prefab
+  artifactKey: Guid(6e7c8c8c86561cb439b4c039f2176519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Chains.prefab using Guid(6e7c8c8c86561cb439b4c039f2176519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff81a219d9c934e608ee7cf037155938') in 0.020427 seconds 
+  Import took 0.026042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.359787 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Cloud_1.prefab
+  artifactKey: Guid(86e8be398d78ae044848ebdd4cf04e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Cloud_1.prefab using Guid(86e8be398d78ae044848ebdd4cf04e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efed9fcf74f6980de64ee6540029fc8a') in 0.030291 seconds 
+  Import took 0.033691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.802401 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Cloud_2.prefab
+  artifactKey: Guid(05ee473c722c26340a1106b6c4da9a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Cloud_2.prefab using Guid(05ee473c722c26340a1106b6c4da9a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1176bf675dd7b81df69095fd85775791') in 0.024042 seconds 
+  Import took 0.028074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.279809 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Footbridge.prefab
+  artifactKey: Guid(915afb3779808b348bce6fbb1c4f4023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Footbridge.prefab using Guid(915afb3779808b348bce6fbb1c4f4023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0801652b6d4040ecafd965a68d1482d2') in 0.034035 seconds 
+  Import took 0.046973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.247557 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Pebble_Solo_3.prefab
+  artifactKey: Guid(01e0af201789bd14587d93edff0f2e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Pebble_Solo_3.prefab using Guid(01e0af201789bd14587d93edff0f2e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a130fd22dc1ad2e10ddfe5a4e8c383b6') in 0.038777 seconds 
+  Import took 0.051017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.717314 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Vine_1.prefab
+  artifactKey: Guid(6222158326407a04ea2701112876c3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Vine_1.prefab using Guid(6222158326407a04ea2701112876c3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e3c906ef43de7a0f46634b4f2f9229') in 0.055744 seconds 
+  Import took 0.061377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.781994 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Tree_4.prefab
+  artifactKey: Guid(494ce871f7c11294a84163a8ab84cc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Tree_4.prefab using Guid(494ce871f7c11294a84163a8ab84cc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c38d6455ec4465baecc1847e269d7aa') in 0.027642 seconds 
+  Import took 0.041060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.066155 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Vine_2.prefab
+  artifactKey: Guid(870f885d07c0c734c9fa7d73b32a27b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Vine_2.prefab using Guid(870f885d07c0c734c9fa7d73b32a27b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11957333318fb0a37d6ba75bd5afc78c') in 0.018039 seconds 
+  Import took 0.021156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.960343 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Vine_3.prefab
+  artifactKey: Guid(7bebe9e6bb8a5e04683722150e1a0bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Vine_3.prefab using Guid(7bebe9e6bb8a5e04683722150e1a0bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a643f5aef30545b4a8c742e4044ccd5') in 0.024389 seconds 
+  Import took 0.028186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.860710 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Waterfall_Thin.prefab
+  artifactKey: Guid(072599009c26def45861630ace8959b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Waterfall_Thin.prefab using Guid(072599009c26def45861630ace8959b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2838ed27a1da97f9e0cab5f663e751b3') in 0.087624 seconds 
+  Import took 0.091577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.022891 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Waterfall_Wide.prefab
+  artifactKey: Guid(aba885aef7e30e7408477d75b92aaa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Waterfall_Wide.prefab using Guid(aba885aef7e30e7408477d75b92aaa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5b73979c30943c42faeb2e8ab083f3') in 0.046312 seconds 
+  Import took 0.051383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.505309 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Grass_2.prefab
+  artifactKey: Guid(36e5a36c62d7a614c95bca0e9a4ac9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Grass_2.prefab using Guid(36e5a36c62d7a614c95bca0e9a4ac9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729703469aff6a82453e8e6a661b5168') in 0.045404 seconds 
+  Import took 0.056587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.363027 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Ruin_1.prefab
+  artifactKey: Guid(1893bc09c9f7c7e4291b44eff3006c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Ruin_1.prefab using Guid(1893bc09c9f7c7e4291b44eff3006c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df06977aac162fd4d1ab315d617b67f3') in 0.051386 seconds 
+  Import took 0.058222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.745142 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Fence_4.prefab
+  artifactKey: Guid(27844364e5417c442856a7b8807101f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Fence_4.prefab using Guid(27844364e5417c442856a7b8807101f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965c7086706b13d473b10db284d5181e') in 0.020051 seconds 
+  Import took 0.033323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.533606 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Fence_2.prefab
+  artifactKey: Guid(cf905aadb82506949b1baddc23d5ade7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Fence_2.prefab using Guid(cf905aadb82506949b1baddc23d5ade7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b353f85236a86e1abcba36d58a79a055') in 0.028527 seconds 
+  Import took 0.033800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079048 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Fence_1.prefab
+  artifactKey: Guid(8a7fc7f6849d76541b6025f42c2d85d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Fence_1.prefab using Guid(8a7fc7f6849d76541b6025f42c2d85d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933c84d8d2ae46792438655529f1db7c') in 0.020285 seconds 
+  Import took 0.025526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.269113 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Cloud_3.prefab
+  artifactKey: Guid(ecf60af110c8a9d44a1e91960fcd1350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Cloud_3.prefab using Guid(ecf60af110c8a9d44a1e91960fcd1350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d59c1ad180ce0ff69469e4b5c165c4') in 0.020335 seconds 
+  Import took 0.024164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.853071 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Prefabs/Tree_3.prefab
+  artifactKey: Guid(09edab3f268550b4797da052c0ccfd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Prefabs/Tree_3.prefab using Guid(09edab3f268550b4797da052c0ccfd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525adb23d59cb62431c0d57a5d4fbbd5') in 0.021167 seconds 
+  Import took 0.024966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.549953 seconds.
+  path: Assets/DLC/Low-Poly Sky World/Scenes
+  artifactKey: Guid(bc37d86f68ec8404abdaf4dd388cc337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DLC/Low-Poly Sky World/Scenes using Guid(bc37d86f68ec8404abdaf4dd388cc337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f32ccda87e63d5e04d7a27dd8adbeb6') in 0.059665 seconds 
+  Import took 0.069187 seconds .
+
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
@@ -628,10 +1069,23 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (2412ms)
 		BeginReloadAssembly (169ms)
+=======
+Registered in 0.003008 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.026 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1026ms)
+		BeginReloadAssembly (161ms)
+>>>>>>> feature_SkyField
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (41ms)
 		EndReloadAssembly (2062ms)
 			LoadAssemblies (159ms)
@@ -648,10 +1102,29 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (471ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (9ms)
+=======
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (797ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (275ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (7ms)
+>>>>>>> feature_SkyField
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
@@ -661,6 +1134,7 @@ System memory in use after: 73.8 MB.
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1985.
 Total: 4.289600 ms (FindLiveObjects: 0.240500 ms CreateObjectMapping: 0.108500 ms MarkObjects: 3.906400 ms  DeleteObjects: 0.032500 ms)
 =======
+<<<<<<< HEAD
 Registered in 0.009368 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -704,6 +1178,17 @@ System memory in use after: 112.0 MB.
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2954.
 Total: 3.571900 ms (FindLiveObjects: 0.229400 ms CreateObjectMapping: 0.105700 ms MarkObjects: 3.189200 ms  DeleteObjects: 0.046600 ms)
 >>>>>>> feature_PlayerTest
+=======
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1489 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.1 MB.
+System memory in use after: 79.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1980.
+Total: 3.482200 ms (FindLiveObjects: 0.263900 ms CreateObjectMapping: 0.056500 ms MarkObjects: 3.142600 ms  DeleteObjects: 0.018000 ms)
+>>>>>>> feature_SkyField
+>>>>>>> c6a9b3b4a94e449087392244041446c97dd42126
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -750,9 +1235,43 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (1ms)
+=======
+Registered in 0.003108 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.191 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1192ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (992ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (398ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+>>>>>>> feature_SkyField
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
@@ -762,6 +1281,7 @@ System memory in use after: 73.8 MB.
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1987.
 Total: 6.196500 ms (FindLiveObjects: 0.298900 ms CreateObjectMapping: 0.102200 ms MarkObjects: 5.645500 ms  DeleteObjects: 0.147700 ms)
 =======
+<<<<<<< HEAD
 Registered in 0.005636 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -861,6 +1381,17 @@ System memory in use after: 112.1 MB.
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2958.
 Total: 8.199900 ms (FindLiveObjects: 0.487400 ms CreateObjectMapping: 0.243400 ms MarkObjects: 7.405400 ms  DeleteObjects: 0.060300 ms)
 >>>>>>> feature_PlayerTest
+=======
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1489 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.1 MB.
+System memory in use after: 79.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1982.
+Total: 3.286700 ms (FindLiveObjects: 0.153400 ms CreateObjectMapping: 0.047700 ms MarkObjects: 3.065400 ms  DeleteObjects: 0.018600 ms)
+>>>>>>> feature_SkyField
+>>>>>>> c6a9b3b4a94e449087392244041446c97dd42126
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -872,6 +1403,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< HEAD
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
@@ -2237,4 +2769,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+=======
+>>>>>>> feature_SkyField
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
