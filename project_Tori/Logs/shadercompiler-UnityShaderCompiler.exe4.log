@@ -3,6 +3,7 @@ Cmd: initializeCompiler
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Cmd: compileSnippet
 <<<<<<< HEAD
@@ -18,3 +19,5 @@ Cmd: compileComputeKernel
 =======
 Cmd: shutdown
 >>>>>>> feature_PlayerTest
+=======
+>>>>>>> feature_SkyField
