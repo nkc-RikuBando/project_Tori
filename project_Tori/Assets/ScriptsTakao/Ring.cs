@@ -41,7 +41,7 @@ public class Ring : MonoBehaviour
     private void OnTriggerEnter(Collider collider)
     {
         if (passRingFlg) return; //リングを通っていたらそもそも検知する必要がない
-        var ToPlayerGoThrough = collider.gameObject.GetComponent<PlayerContoller>(); //このスクリプトを持っているオブジェクトが触れたかを検知
+        var ToPlayerGoThrough = collider.gameObject.GetComponent<Reality.Player.PlayerMover>(); //このスクリプトを持っているオブジェクトが触れたかを検知
         if (ToPlayerGoThrough != null)
         {
             GoThroughToRing();

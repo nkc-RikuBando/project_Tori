@@ -3,6 +3,7 @@ Cmd: initializeCompiler
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Cmd: shutdown
 =======
 <<<<<<< HEAD
@@ -28,3 +29,6 @@ Cmd: shutdown
 >>>>>>> 46437c4e723da52f3960151b8e51fa97596bfeb8
 =======
 >>>>>>> feature_WeightSaving
+=======
+Cmd: shutdown
+>>>>>>> 2f96d5a8907f661144ab910d08ba76e8da7955a6

@@ -9,12 +9,9 @@ namespace Connector
         {
             // 入力情報を受けとる用インターフェース
 
-            void CurrentMoveDir(Vector3 vec);
+            void CurrentMoveDir(Vector3 moveDir, Vector3 oldVelo);
 
-            void OldMoveDir(Vector3 vec);
-
-            void CurrentRatateDir(Vector3 vec);
-
+            void CurrentRatateDir(Vector3 moveDir, GameObject obj);
         }
     }
 }
