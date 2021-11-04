@@ -20,7 +20,21 @@ namespace Virtuality
 
             private Vector3    _currentVelocity;
 
+<<<<<<< HEAD
             private const float _PLAYER_SPEED = 15f;
+=======
+            private float _playerRotateSpeed_Y = 0f;
+            private const float _PLAYER_SPEED = 50f;
+            private const float _PLAYER_ACCEL_RATE = 0.5f;
+            private const float _ROTATE_SPEED_CHANGE_RATE = 0.1f;
+
+
+            // 一つ前のvelocityの値を取得するインターフェース
+            void IInputRecevable.OldMoveDir(Vector3 vec)
+            {
+                _oldVelocity = vec;
+            }
+>>>>>>> c7c9012343726ae0ce3e59100d64c322e44949e9
 
             //private float _playerRotateSpeed_Y = 0f;
             //private const float _ROTATE_SPEED_CHANGE_RATE = 0.01f;
@@ -28,7 +42,11 @@ namespace Virtuality
             // 移動用インターフェース実装
             void IInputRecevable.CurrentMoveDir(Vector3 moveDir, Vector3 oldVelo)
             {
+<<<<<<< HEAD
                 _currentVelocity = Vector3.Lerp(oldVelo, moveDir.normalized * _PLAYER_SPEED, Time.deltaTime);
+=======
+                _currentVelocity = Vector3.Lerp(_oldVelocity, vec * _PLAYER_SPEED, _PLAYER_ACCEL_RATE*Time.deltaTime);
+>>>>>>> c7c9012343726ae0ce3e59100d64c322e44949e9
 
                 _playerVec3PosSubject.OnNext(_currentVelocity);
             }

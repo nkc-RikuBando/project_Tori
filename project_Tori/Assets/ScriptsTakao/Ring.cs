@@ -9,6 +9,8 @@ public class Ring : MonoBehaviour
 
     float distance;
 
+    float findDistance = 60;
+
     bool appearRingFlg = false; //近づいたかのフラグ
     bool passRingFlg = false;   //くぐったかのフラグ
 
@@ -39,7 +41,7 @@ public class Ring : MonoBehaviour
     private void OnTriggerEnter(Collider collider)
     {
         if (passRingFlg) return; //リングを通っていたらそもそも検知する必要がない
-        var ToPlayerGoThrough = collider.gameObject.GetComponent<PlayerContoller>(); //このスクリプトを持っているオブジェクトが触れたかを検知
+        var ToPlayerGoThrough = collider.gameObject.GetComponent<Reality.Player.PlayerMover>(); //このスクリプトを持っているオブジェクトが触れたかを検知
         if (ToPlayerGoThrough != null)
         {
             GoThroughToRing();
@@ -56,14 +58,14 @@ public class Ring : MonoBehaviour
         //近いか遠いかで変わる処理
         if (!appearRingFlg)
         {
-            if (!(distance < 20 && distance > -20)) return; //範囲内にいたら
+            if (!(distance < findDistance && distance >= -(findDistance))) return; //範囲内にいたら
             appearRingFlg = true; //何回もアニメーションしないようにする
             ApproachToRing();
         }
 
         if (appearRingFlg)
         {
-            if (!(distance > 20 || distance < -20)) return; //範囲外にいたら
+            if (!(distance > findDistance || distance < -(findDistance))) return; //範囲外にいたら
             appearRingFlg = false; //何回もアニメーションしないようにする
             DepartToRing();
         }
