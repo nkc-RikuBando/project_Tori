@@ -2,6 +2,7 @@ Base path: 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data', plugins 
 Cmd: initializeCompiler
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Cmd: shutdown
 =======
 <<<<<<< HEAD
@@ -32,3 +33,5 @@ Cmd: shutdown
 >>>>>>> feature_SkyField
 >>>>>>> c6a9b3b4a94e449087392244041446c97dd42126
 >>>>>>> 46437c4e723da52f3960151b8e51fa97596bfeb8
+=======
+>>>>>>> feature_WeightSaving
