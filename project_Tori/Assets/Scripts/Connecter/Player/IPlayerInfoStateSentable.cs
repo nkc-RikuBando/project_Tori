@@ -13,7 +13,7 @@ namespace Connector
 
             IObservable<Vector3> GetPlayerPosObservable();
 
-            IObservable<Vector3> GetPlayerRotObservable();
+            IObservable<Quaternion> GetPlayerRotObservable();
 
             IObservable<PlayerMoveType> GetPlayerMoveTypeObservable();
         }
