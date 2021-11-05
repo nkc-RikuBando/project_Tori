@@ -19,12 +19,12 @@ namespace Virtuality
             Subject<PlayerMoveType> _playerMoveTypeSubject = new Subject<PlayerMoveType>();
 
             private Vector3    _currentVelocity;
-            private const float _PLAYER_SPEED = 15f;
+
             
             // 移動用インターフェース実装
-            void IInputRecevable.CurrentMoveDir(Vector3 moveDir, Vector3 oldVelo)
+            void IInputRecevable.CurrentMoveDir(Vector3 moveDir, Vector3 oldVelo, float dash, float speed)
             {
-                _currentVelocity = Vector3.Lerp(oldVelo, moveDir.normalized * _PLAYER_SPEED, Time.deltaTime);
+                _currentVelocity = Vector3.Lerp(oldVelo, moveDir.normalized * speed * dash, Time.deltaTime);
 
                 _playerVec3PosSubject.OnNext(_currentVelocity);
             }
@@ -42,8 +42,6 @@ namespace Virtuality
 
                 _playerVec3RotSubject.OnNext(obj.transform.rotation);
             }
-
-
 
 
             // 移動座標をRealityに送る

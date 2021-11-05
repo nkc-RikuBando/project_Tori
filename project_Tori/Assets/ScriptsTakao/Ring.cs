@@ -4,6 +4,7 @@ using UnityEngine;
 public class Ring : MonoBehaviour
 {
     [SerializeField] string ringName;
+    [SerializeField] private AudioClip sound_1;
 
     int passRingNum = 0;
 
@@ -15,6 +16,7 @@ public class Ring : MonoBehaviour
     bool passRingFlg = false;   //くぐったかのフラグ
 
     private GameObject player;
+    private AudioSource audioSource;
     //private GameObject ringObject;
 
     private RingAnimation ringAnimation;
@@ -28,6 +30,7 @@ public class Ring : MonoBehaviour
         player = GameObject.Find("Player");
         ruleManager = GameObject.Find("RuleManager").GetComponent<RuleManager>();
         ringAnimation = GetComponent<RingAnimation>();
+        audioSource = GetComponent<AudioSource>();
 
         //animator = GetComponent<Animator>();
     }
@@ -95,6 +98,7 @@ public class Ring : MonoBehaviour
     {
         passRingFlg = true; //通ったリングを再度検知しないようにする
         //animator.SetBool("isPassing", true);
+        audioSource.PlayOneShot(sound_1);
         ringAnimation.PassingAnimation();
         Debug.Log("消える");
         ruleManager.PassRing();

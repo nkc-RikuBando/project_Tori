@@ -14,6 +14,7 @@ namespace Reality
 
             [SerializeField] private Camera     _playerCamera;
             [SerializeField] private GameObject _avatar;
+            [SerializeField] private float _playerSpeed;
 
             [Inject] private IInputRecevable _keyboardInputer;
 
@@ -25,6 +26,8 @@ namespace Reality
             private Vector3 _velo     = Vector3.zero;
 
             private float _inputX, _inputY;
+            private float _dashInput = 1;
+            private float _dashSpeed = 3;
 
             private void Start()
             {
@@ -71,7 +74,16 @@ namespace Reality
                     _movement = _cameraRight * _inputX + _cameraForward * _inputY;
                 }
 
-                _keyboardInputer.CurrentMoveDir(_movement, _velo);
+                if (Input.GetKeyDown(KeyCode.LeftShift))
+                {
+                    _dashInput = _dashSpeed;
+                }
+                else if (Input.GetKeyUp(KeyCode.LeftShift))
+                {
+                    _dashInput = 1;
+                }
+
+                _keyboardInputer.CurrentMoveDir(_movement, _velo, _dashInput, _playerSpeed);
                 _keyboardInputer.CurrentRatateDir(_movement, _avatar);
 
 
